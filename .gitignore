@@ -1,44 +1,10 @@
-# Project files
 HELP.md
-
-# Build folders
 target/
+.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-# Maven wrapper 
-# .mvn/wrapper/maven-wrapper.jar   
-
-# ========================
-# SENSITIVE FILES
-# ========================
-application.properties
-application.yml
-.env
-.env.*
-
-# ========================
-# LOGS
-# ========================
-*.log
-logs/
-
-# ========================
-# OS FILES
-# ========================
-.DS_Store
-Thumbs.db
-
-# ========================
-# TEMP FILES
-# ========================
-*.tmp
-*.swp
-*.class
-
-# ========================
-# STS / Eclipse
-# ========================
+### STS ###
 .apt_generated
 .classpath
 .factorypath
@@ -47,17 +13,13 @@ Thumbs.db
 .springBeans
 .sts4-cache
 
-# ========================
-# IntelliJ IDEA
-# ========================
+### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
 
-# ========================
-# NetBeans
-# ========================
+### NetBeans ###
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -67,7 +29,5 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-# ========================
-# VS Code
-# ========================
+### VS Code ###
 .vscode/
